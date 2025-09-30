@@ -36,19 +36,19 @@ npm install -g @aikidosec/safe-chain
 
 ```bash
 # 基本的な使用方法
-./check-all-repositories.sh ~/Github/Business
+./check-all-repositories.sh ~/Github/SomeDirectory
 
 # リポジトリ単位でスキャン（デフォルト）
-./check-all-repositories.sh ~/Github/Business
+./check-all-repositories.sh ~/Github/SomeDirectory
 
 # 全体を再帰的にスキャン
-./check-all-repositories.sh -r ~/Github/Business
+./check-all-repositories.sh -r ~/Github/SomeDirectory
 
 # 詳細表示付きで実行
-./check-all-repositories.sh -v ~/Github/Business
+./check-all-repositories.sh -v ~/Github/SomeDirectory
 
 # ドライラン（実行せずに確認）
-./check-all-repositories.sh -d ~/Github/Business
+./check-all-repositories.sh -d ~/Github/SomeDirectory
 ```
 
 ## オプション
